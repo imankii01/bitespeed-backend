@@ -11,7 +11,7 @@ FluxKart.com collects customer data (email/phone) for personalization. A single 
 ## 🚀 Live API
 
 **POST** `/api/identify`  
-👉 Hosted on: [https://bitespeed-backend-vfom.onrender.com/api/identify](https://bitespeed-backend-vfom.onrender.com/api/identify)
+👉 Hosted on: [https://bitespeed-backend-vfom.onrender.com](https://bitespeed-backend-vfom.onrender.com)
 
 > Replace with actual deployed link
 
