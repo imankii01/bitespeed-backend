@@ -11,7 +11,8 @@ FluxKart.com collects customer data (email/phone) for personalization. A single 
 ## 🚀 Live API
 
 **POST** `/api/identify`  
-👉 Hosted on: [https://your-render-url.com/api/identify](https://your-render-url.com/api/identify)  
+👉 Hosted on: [https://bitespeed-backend-vfom.onrender.com/api/identify](https://bitespeed-backend-vfom.onrender.com/api/identify)
+
 > Replace with actual deployed link
 
 ---
@@ -26,12 +27,12 @@ Content-Type: application/json
   "email": "doc@brown.com",
   "phoneNumber": "1234567890"
 }
-````
+```
 
 ### Sample cURL
 
 ```bash
-curl -X POST https://your-render-url.com/api/identify \
+curl -X POST https://bitespeed-backend-vfom.onrender.com/api/identify \
   -H "Content-Type: application/json" \
   -d '{"email": "doc@brown.com", "phoneNumber": "1234567890"}'
 ```
@@ -40,12 +41,12 @@ curl -X POST https://your-render-url.com/api/identify \
 
 ## 📦 Tech Stack
 
-* Node.js
-* Express.js
-* TypeScript
-* Prisma ORM
-* PostgreSQL (or SQLite for dev)
-* Deployed via [Render](https://render.com/)
+- Node.js
+- Express.js
+- TypeScript
+- Prisma ORM
+- PostgreSQL (or SQLite for dev)
+- Deployed via [Render](https://render.com/)
 
 ---
 
@@ -73,9 +74,9 @@ npm run dev
 
 ## ✅ Features
 
-* 🔗 Links multiple contact records by email or phone
-* 📌 Ensures oldest record is treated as `primary`
-* 🔁 Returns unified contact info with all linked records
+- 🔗 Links multiple contact records by email or phone
+- 📌 Ensures oldest record is treated as `primary`
+- 🔁 Returns unified contact info with all linked records
 
 ---
 
